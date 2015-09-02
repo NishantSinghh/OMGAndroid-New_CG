@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else{
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("Hello");
-            alert.setMessage("What is your name ?");
+            alert.setMessage("What is your name?");
             final EditText input = new EditText(this);
             alert.setView(input);
             alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
